@@ -1,0 +1,68 @@
+body
+{
+  font-family: 'Arial', sans-serif;
+  background-color: white;
+}
+
+.App-header
+{
+  background-color: #ff5252;
+  color: white;
+  padding: 20px;
+  font-size: 24px;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom: 20px;
+}
+
+.travel-journal
+{
+  width: 90%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.travel-entry
+{
+  background: #ffffff;
+  border: 2px solid #dadada;
+  border-radius: 10px;
+  display: flex;
+  overflow: hidden;
+}
+
+.travel-entry img
+{
+  width: 200px;
+  height: auto;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.entry-details
+{
+  padding: 16px;
+  text-align: left;
+  flex-grow: 1;
+}
+
+.entry-details h2
+{
+  color: #ff5252;
+  margin-bottom: 8px;
+}
+
+.entry-details h3
+{
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.entry-details p
+{
+  color: #666;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
